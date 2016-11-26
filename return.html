@@ -1,0 +1,15 @@
+<input type="number" id="cnpj" placeholder="Digite seu CNPJ">
+<input type="button" onclick="CNPJ();" value="Verificar CNPJ">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+function CNPJ(){
+    var cnpj = document.getElementById('cnpj').value;
+    $.ajax({
+        type: "GET", 
+        url: "https://www.receitaws.com.br/v1/cnpj/"+cnpj,
+            success: function(data){
+                console.log(data);
+            }
+    });
+}
+</script>

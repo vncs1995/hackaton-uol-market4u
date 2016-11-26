@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: 'Candara';
+    font-weight: 600;
+}
+html, body{
+	height: 100%;
+}
+h2{
+	margin-top: 10px !important;
+}
+.back{
+	height: 100%;
+	background: url('../img/f-certo.jpg');
+	background-size: cover;
+}
+.overlay{
+	background-color: rgba(85,85,85,0.75);
+	height: 100%;
+}
+.logo{
+	padding: 25px 0;
+	height: 150px;
+}
+.header{
+	max-height: 250px;
+	background-position: center;
+}
+.back-color{
+	background: url('../img/f-barra.jpg');
+	background-repeat: repeat-x;
+	background-size: 1px 100%;
+}
+.map iframe{
+	pointer-events: none;
+}
+.map iframe{
+	pointer-events: all;
+}
+.back-footer{
+	background-color: #efefef;
+	border-top: 1px solid #ccc;
+}
+.center{
+	text-align: center;;
+}
+.center h1, .center p{
+	width: 100%;
+}
+.color-input{
+	border: 2px solid #34b437;
+}
+.btn{
+	background-color: #00a651;
+	border: 2px solid #197b30;
+}
+.float-r{
+	float: right;
+}
+.min-top{
+	margin-top:100px;
+}
+.form-group span{
+	float: right;
+}
+.step{
+	padding: 10px;
+	background-color: #ccc;
+	border: 1px solid #000;
+	float: left;
+	width: 30%;
+}
+.steps, .step, .actions ul li a[href="#previous"], #step{
+	display: none;
+}
+.actions{
+	width: 100%;
+	margin-top: 30px;
+}
+.actions ul{
+	float: right;
+}
+.actions ul li{
+	list-style: none;
+	float: left;
+}
+.actions ul li a{
+	padding: 15px 10px;
+	border: 2px solid #197b30;
+	background-color: #00a651;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: 15px;
+}
